@@ -1,0 +1,32 @@
+/* Logo Responsive Styles */
+.logo__link {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.logoimg {
+    max-width: 100%;
+    height: auto;
+    transition: all 0.3s ease;
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+    .logoimg {
+        width: 120px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .logoimg {
+        width: 100px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .logoimg {
+        width: 80px;
+    }
+} 

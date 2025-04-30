@@ -1,0 +1,23 @@
+@{
+    var menuItems = new[]
+    {
+        new { Text = "Home", Url = "/" },
+        new { Text = "About", Url = "/about" },
+        new { Text = "Services", Url = "/services" },
+        new { Text = "Portfolio", Url = "/portfolio" },
+        new { Text = "Contact", Url = "/contact" }
+    };
+}
+
+<nav class="main-nav">
+    <ul class="main-nav__list">
+        @foreach (var item in menuItems)
+        {
+            <li class="main-nav__item">
+                <a href="@item.Url" class="main-nav__link">
+                    <span class="main-nav__link--goal">@item.Text</span>
+                </a>
+            </li>
+        }
+    </ul>
+</nav> 

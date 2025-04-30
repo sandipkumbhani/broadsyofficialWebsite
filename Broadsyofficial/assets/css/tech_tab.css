@@ -1,0 +1,162 @@
+.s-technologies-tabs {
+    background-color: #fff;
+    padding-top: 0;
+    position: relative;
+}
+.wrap, .wrap-article {
+    margin: 0 auto;
+    width: 100%;
+}
+.wrap {
+    max-width: 1280px;
+    padding: 0 40px;
+    position: relative;
+}
+.s-technologies-tabs__title {
+    display: block;
+    margin-bottom: 36px;
+    max-width: 760px;
+    text-align: center;
+	
+}
+
+.s-technologies-tabs__nav-item {
+    background-color: #f2f6fa;
+    color: hsla(0, 0%, 7%, .5);
+    cursor: pointer;
+    padding: 20px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+	font-weight: bold;
+}
+@media screen and (min-width: 375px) {
+    .h2, h2 {
+        line-height: calc(26.06557px + 1.04918vw);
+    }
+}
+.h2, h2 {
+    line-height: 30px;
+}
+.s-technologies-tabs__nav {
+    grid-gap: 7px;
+    display: grid;
+    gap: 7px;
+    grid-auto-flow: column;
+    padding: 0 40px;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+html {
+    -webkit-font-smoothing: antialiased;
+    background-color: #111;
+    box-sizing: border-box;
+    color: #000;
+    font-family: "GothamBlack", -apple-system, BlinkMacSystemFont, Verdana, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.15;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+.s-technologies-tabs__nav-icon {
+    display: none;
+}
+.s-technologies-tabs__nav-item.active {
+    background-color: #111;
+    color: #fff;
+}
+.s-technologies-tabs__nav-item:hover:not(.active) {
+    color: #111;
+    transform: scale(102%);
+}
+.fontstyle{
+	font-family: "GothamBlack", -apple-system, BlinkMacSystemFont, Verdana, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.hidden {
+    display: none;
+}
+.active {
+    display: block;
+}
+.s-technologies-tabs__tab-item__title {
+    text-transform: uppercase;
+}
+@media screen and (min-width: 375px) {
+    .h2, h2 {
+        line-height: calc(26.06557px + 1.04918vw);
+    }
+}
+.h2, h2 {
+    line-height: 30px;
+}
+@media screen and (min-width: 375px) {
+    .h2, h2 {
+        font-size: calc(22.03279px + .52459vw);
+    }
+}
+.s-technologies-tabs__tab-item__desc {
+    color: #485770;
+    font-size: 17px;
+    line-height: 28px;
+}
+.s-technologies-tabs__tab-item__list {
+    grid-gap: 13px;
+    display: grid;
+    gap: 13px;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0;
+    padding: 0;
+}
+.s-technologies-tabs__tab-item__list-item, .s-technologies-tabs__tab-item__list-item__link {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.s-technologies-tabs__tab-item__list-item {
+    border: 1px solid #d5dbe1;
+    height: 150px;
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+}
+.s-technologies-tabs__tab-item {
+    grid-gap: 76px;
+    display: grid;
+    gap: 76px;
+    grid-template-columns: 270px 1fr;
+    padding-top: 46px;
+}
+.s-technologies-tabs__tab-item__grid-wrap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
+    gap: 16px; /* Space between grid items */
+    padding: 20px; /* Add some spacing inside the container */
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 8px; /* Smooth rounded corners */
+}
+
+/* Styling for grid items inside */
+.s-technologies-tabs__tab-item__grid-wrap .grid-item {
+    background: #ffffff;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease-in-out;
+}
+
+.s-technologies-tabs__tab-item__grid-wrap .grid-item:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+
+
+
