@@ -1,0 +1,386 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Travel Web App | Portfolio  </title>
+    <link href="~/assets/css/TravelwebPage.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/assets/js/TravelWebSwiper.js"></script>
+</head>
+<body>
+    <section class="section bg-black case-about-section">
+        <div class="py-5 container">
+            <div class="mb-0 mt-5">
+                <div class="g-4 row row-cols-lg-2 row-cols-md-1 row-cols-1">
+                    <div class="col-lg-3">
+                        <div class="pb-4 case-study-title-border">
+                            <h2 class="mb-4 text-white title-border-sm">About</h2>
+                        </div>
+                        <div>
+                            <h3 class="fw-medium font-size-18 text-white">Category</h3>
+                            <p class="font-size-16 mb-0 category-single-post"><span class="category text-white-75"> <i class="coma-sep">  </i></span><span class="category text-white-75">Travel Web App <i class="coma-sep">  </i></span></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="ms-lg-5">
+                            <div class="text-white-75 lead mb-0 mt-4">
+                                <p style=" color: hsla(0, 0%, 100%, .75);">
+                                    A travel agency approached Broadsy Technologies with a vision to build a feature-rich travel web application. Their goal was to provide a seamless booking experience, personalized recommendations, and real-time travel updates for users.
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- challenges-->
+    <section class="section challanges-section">
+        <div class="py-5 container">
+            <div class="dark-box-1 p-4 p-lg-5 mt-5">
+                <div class="g-4 row">
+                    <div class="col-lg-3">
+                        <div class="mb-0 case-study-title-border sticky-section">
+                            <h2 class="mb-4 title-border-sm"> <span class="text-primary">Challenges</span> Faced</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <ul class="ps-0 ps-lg-5">
+                            <li class="mb-3 lead d-flex">
+                                <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                <div class="mb-0">
+                                    <strong>Integration with Multiple APIs:</strong> Ensuring seamless integration with airline, hotel, and payment APIs.
+                                </div>
+                            </li>
+                            <li class="mb-3 lead d-flex">
+                                <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                <div class="mb-0"><strong>Scalability:</strong> Designing an architecture that could handle growing user demand.</div>
+                            </li>
+                            <li class="mb-3 lead d-flex">
+                                <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                <div class="mb-0">
+                                    <strong>Real-Time Data Synchronization:</strong> Managing live updates without latency issues.
+                                </div>
+                            </li>
+                            <li class="mb-3 lead d-flex">
+                                <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                <div class="mb-0">
+                                    <strong>Ensuring Data Security:</strong> Implementing robust cybersecurity measures to protect sensitive user data.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5">
+                <div class="0dark-box-1 p-4 p-lg-5">
+                    <div class="g-4 row">
+                        <div class="col-lg-3">
+                            <div class="mb-0 case-study-title-border sticky-section">
+                                <h2 class="mb-4 title-border-sm"> <span class="text-primary">Solution</span>Provided</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <p class="tab-description">
+                                Broadsy Technologies developed a comprehensive travel web application with the following features:
+
+                            </p>
+                            <ul class="ps-0 ps-lg-5">
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <p><b>User-Friendly UI/UX:</b></p>
+                                        <p>
+                                            A responsive and engaging interface ensuring smooth navigation.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <p><b>Advanced Search & Filters: </b></p>
+                                        <p>
+                                            Users can find destinations, flights, and accommodations based on their preferences.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <p><b>AI-Based Personalized Recommendations:</b></p>
+                                        <p>
+                                            Tailored travel suggestions based on user behavior.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <p><b>Real-Time Booking & Updates: </b></p>
+                                        <p>
+                                            Live status updates for flights, hotels, and activities.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <p><b>Secure Payment Gateway:</b></p>
+                                        <p>
+                                            Multiple payment options with top-tier security protocols.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <p><b>Multi-Language Support:</b></p>
+                                        <p>
+                                            Enhanced accessibility for global travelers.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <p><b>Admin Dashboard:</b></p>
+                                        <p>
+                                            A backend panel for easy management of listings and bookings.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 pb-4">
+                <div class="swiper swiper-initialized swiper-horizontal solution-slider swiper-backface-hidden">
+                    <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px); transition-delay: 0ms; ">
+                        <div class="swiper-slide swiper-slide-active" style="margin-right: 50px;">
+                            <div data-gatsby-image-wrapper="" class="gatsby-image-wrapper gatsby-image-wrapper-constrained">
+                                <div style="max-width:3200px;display:block">
+                                    <div aria-hidden="true" data-placeholder-image="" style="opacity: 0; transition: opacity 500ms linear; object-fit: contain;"></div>
+                                    <picture>
+                                        <img width="3200" height="2000" data-main-image="" style="object-fit: contain; opacity: 1;" sizes="(min-width: 3200px) 3200px, 100vw" decoding="async" loading="lazy" src="~/assets/img/Travel1.png"
+                                             alt="solution">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-next" style="margin-right: 50px;">
+                            <div data-gatsby-image-wrapper="" class="gatsby-image-wrapper gatsby-image-wrapper-constrained">
+                                <div style="max-width:3200px;display:block">
+                                    <div aria-hidden="true" data-placeholder-image="" style="opacity: 0; transition: opacity 500ms linear; object-fit: contain;"></div>
+                                    <picture>
+                                        <img width="3200" height="2000" data-main-image="" style="object-fit: contain; opacity: 1;" sizes="(min-width: 3200px) 3200px, 100vw" decoding="async" loading="lazy" src="~/assets/img/Travel2.png" alt="solution">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="margin-right: 50px;">
+                            <div data-gatsby-image-wrapper="" class="gatsby-image-wrapper gatsby-image-wrapper-constrained">
+                                <div style="max-width:3200px;display:block">
+                                    <div aria-hidden="true" data-placeholder-image="" style="opacity: 0; transition: opacity 500ms linear; object-fit: contain;"></div>
+                                    <picture>
+                                        <img width="3200" height="2000" data-main-image="" style="object-fit: contain; opacity: 1;" sizes="(min-width: 3200px) 3200px, 100vw" decoding="async" loading="lazy" src="~/assets/img/Travel3.png"
+                                             alt="solution">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="margin-right: 50px;">
+                            <div data-gatsby-image-wrapper="" class="gatsby-image-wrapper gatsby-image-wrapper-constrained">
+                                <div style="max-width:3200px;display:block">
+                                    <div aria-hidden="true" data-placeholder-image="" style="opacity: 0; transition: opacity 500ms linear; object-fit: contain;"></div>
+                                    <picture>
+                                        <img width="3200" height="2000" data-main-image="" style="object-fit: contain; opacity: 1;" sizes="(min-width: 3200px) 3200px, 100vw" decoding="async" loading="lazy" src="~/assets/img/Travel4.png" alt="solution">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev swiper-button-disabled"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                        <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+                        <span class="swiper-pagination-bullet"></span>
+                        <span class="swiper-pagination-bullet"></span>
+                        <span class="swiper-pagination-bullet"></span>
+                        <span class="swiper-pagination-bullet"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5">
+                <div class="dark-box-1 p-4 p-lg-5">
+                    <div class="g-4 row">
+
+                        <div class="col-lg-3">
+                            <div class="mb-0 case-study-title-border sticky-section">
+                                <h2 class="mb-4 title-border-sm">User Side   <span class="text-primary">features</span></h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <ul class="ps-0 ps-lg-5">
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong>AI-Powered Itinerary Planner:</strong>  Uses AI to create custom travel plans based on user preferences, past trips, and budget.
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong>Voice Search & Chatbots :</strong>  AI-based voice search and chatbots for quick queries and customer support.
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0"><strong>Personalized Recommendations:</strong> Suggests activities, restaurants, and attractions based on user preferences and location.</div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong>Live Weather & Traffic Updates :</strong> Real-time weather forecasts and traffic conditions to help with travel planning.
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong>Offline Mode :</strong>  Allows users to access saved itineraries, maps, and guides without an internet connection.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5">
+                <div class="dark-box-1 p-4 p-lg-5">
+                    <div class="g-4 row">
+
+                        <div class="col-lg-3">
+                            <div class="mb-0 case-study-title-border sticky-section">
+                                <h2 class="mb-4 title-border-sm">Admin Side<span class="text-primary">features</span></h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <ul class="ps-0 ps-lg-5">
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong>Advanced Dashboard & Analytics:</strong>  Provides insights on user behavior, bookings, popular destinations, and revenue.
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong>AI-Based Pricing & Demand Forecasting  :</strong> Uses machine learning to optimize pricing based on demand trends.
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong>Content Management System (CMS) :</strong> Easily update and manage travel guides, blog posts, and city highlights.
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong>Dynamic Booking Management :</strong>Enables admins to manage flight, hotel, and activity bookings with real-time updates.
+
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong>User Role & Access Control:</strong>  Allows different permission levels for admins, agents, and customer support teams.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5">
+                <div class="dark-box-1 p-4 p-lg-5">
+                    <div class="g-4 row">
+                        <div class="col-lg-3">
+                            <div class="mb-0 case-study-title-border sticky-section">
+                                <h2 class="mb-4 title-border-sm">Results</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <ul class="ps-0 ps-lg-5">
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        40% Increase in Bookings: The intuitive interface and personalized recommendations significantly boosted conversions.
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        Improved User Engagement: Enhanced UI/UX led to longer session durations and repeat visits.
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">Efficient Operations: The admin dashboard reduced manual work and streamlined processes.</div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        High Customer Satisfaction: Positive feedback from travelers on the ease of booking and real-time updates.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--TechStack-->
+    <section class="section bg-light">
+        <div class="py-5 container">
+            <div class="mb-5 pb-1">
+                <h2 class="mb-0"><span class="text-primary">Tech stacks</span> we used</h2>
+            </div>
+            <div class="g-4 row row-cols-lg-4 row-cols-md-3 row-cols-1">
+                <div class="col">
+                    <div class="dark-box-2 text-center equal-height">
+                        <p class="mb-2 font-size-14 text-muted">Front End</p>
+                        <h3 class="h5 fw-normal mb-0">Angular </h3>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="dark-box-2 text-center equal-height">
+                        <p class="mb-2 font-size-14 text-muted">Back End</p>
+                        <h3 class="h5 fw-normal mb-0"> .Net </h3>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="dark-box-2 text-center equal-height">
+                        <p class="mb-2 font-size-14 text-muted">Database</p>
+                        <h3 class="h5 fw-normal mb-0"> SQLServer</h3>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="dark-box-2 text-center equal-height">
+                        <p class="mb-2 font-size-14 text-muted">Server</p>
+                        <h3 class="h5 fw-normal mb-0">Azure</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
