@@ -1,0 +1,473 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Hotel Management Application  | Portfolio  </title>
+    <link href="~/assets/css/TravelwebPage.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/assets/js/TravelWebSwiper.js"></script>
+</head>
+<body>
+    <section class="section bg-black case-about-section">
+        <div class="py-5 container">
+            <div class="mb-0 mt-5">
+                <div class="g-4 row row-cols-lg-2 row-cols-md-1 row-cols-1">
+                    <div class="col-lg-3">
+                        <div class="pb-4 case-study-title-border">
+                            <h2 class="mb-4 text-white title-border-sm">About</h2>
+                        </div>
+                        <div>
+                            <h3 class="fw-medium font-size-18 text-white">Category</h3>
+                            <p class="font-size-16 mb-0 category-single-post"><span class="category text-white-75"> <i class="coma-sep">  </i></span><span class="category text-white-75">Hotel Management Application  <i class="coma-sep">  </i></span></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="ms-lg-5">
+                            <div class="text-white-75 lead mb-0 mt-4">
+                                <p style=" color: hsla(0, 0%, 100%, .75);">
+                                    Our client, a mid-sized hotel chain operating acrcentralizede cities, approached Broadsy Technologies seeking a digital solution to streamline their hotel operations, improve guest experience, and modernize their administrative control systems. The client faced inefficiencies due to fragmented tools for bookings, inventory management, and customer engagement.
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- challenges-->
+    <section class="section challanges-section">
+        <div class="py-5 container">
+            <div class="dark-box-1 p-4 p-lg-5 mt-5">
+                <div class="g-4 row">
+                    <div class="col-lg-3">
+                        <div class="mb-0 case-study-title-border sticky-section">
+                            <h2 class="mb-4 title-border-sm">Challenges<span class="text-primary">Faced</span></h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="ps-0 ps-lg-5">
+                            <div class="col-12">
+                                <table class="table table-borderless">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th scope="col"><h3><b>Challenges</b></h3></th>
+                                            <th scope="col"><h3><b>Solutions</b></h3></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-second">
+                                                <i class="zmdi zmdi-alert-circle zmdi-hc-fw font-size-24"></i> Real-time room availability across multiple branches
+                                            </td>
+                                            <td>
+                                                <i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i> Implemented SignalR and optimized caching to sync data efficiently
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-second">
+                                                <i class="zmdi zmdi-alert-circle zmdi-hc-fw font-size-24"></i> Managing roles for diverse staff members
+                                            </td>
+                                            <td>
+                                                <i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i> Custom RBAC system with tiered access (Manager, Receptionist, Housekeeping, etc.)
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-second">
+                                                <i class="zmdi zmdi-alert-circle zmdi-hc-fw font-size-24"></i> Large volume of booking data
+                                            </td>
+                                            <td>
+                                                <i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i> Introduced server-side pagination, indexing, and archival services
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-second">
+                                                <i class="zmdi zmdi-alert-circle zmdi-hc-fw font-size-24"></i> UI usability for non-technical staff
+                                            </td>
+                                            <td>
+                                                <i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i> Designed minimalistic UI/UX with training tooltips and onboarding flows
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 pb-4">
+                <div class="swiper swiper-initialized swiper-horizontal solution-slider swiper-backface-hidden">
+                    <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px); transition-delay: 0ms; ">
+                        <div class="swiper-slide swiper-slide-active" style="margin-right: 50px;">
+                            <div data-gatsby-image-wrapper="" class="gatsby-image-wrapper gatsby-image-wrapper-constrained">
+                                <div style="max-width:3200px;display:block">
+                                    <div aria-hidden="true" data-placeholder-image="" style="opacity: 0; transition: opacity 500ms linear; object-fit: contain;"></div>
+                                    <picture>
+                                        <img width="3200" height="2000" data-main-image="" style="object-fit: contain; opacity: 1;" sizes="(min-width: 3200px) 3200px, 100vw" decoding="async" loading="lazy" src="~/assets/img/HotelDashboard.png"
+                                             alt="solution">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="margin-right: 50px;">
+                            <div data-gatsby-image-wrapper="" class="gatsby-image-wrapper gatsby-image-wrapper-constrained">
+                                <div style="max-width:3200px;display:block">
+                                    <div aria-hidden="true" data-placeholder-image="" style="opacity: 0; transition: opacity 500ms linear; object-fit: contain;"></div>
+                                    <picture>
+                                        <img width="3200" height="2000" data-main-image="" style="object-fit: contain; opacity: 1;" sizes="(min-width: 3200px) 3200px, 100vw" decoding="async" loading="lazy" src="~/assets/img/HotelBookings.png" alt="solution">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-next" style="margin-right: 50px;">
+                            <div data-gatsby-image-wrapper="" class="gatsby-image-wrapper gatsby-image-wrapper-constrained">
+                                <div style="max-width:3200px;display:block">
+                                    <div aria-hidden="true" data-placeholder-image="" style="opacity: 0; transition: opacity 500ms linear; object-fit: contain;"></div>
+                                    <picture>
+                                        <img width="3200" height="2000" data-main-image="" style="object-fit: contain; opacity: 1;" sizes="(min-width: 3200px) 3200px, 100vw" decoding="async" loading="lazy" src="~/assets/img/HotelAllRooms.png" alt="solution">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="margin-right: 50px;">
+                            <div data-gatsby-image-wrapper="" class="gatsby-image-wrapper gatsby-image-wrapper-constrained">
+                                <div style="max-width:3200px;display:block">
+                                    <div aria-hidden="true" data-placeholder-image="" style="opacity: 0; transition: opacity 500ms linear; object-fit: contain;"></div>
+                                    <picture>
+                                        <img width="3200" height="2000" data-main-image="" style="object-fit: contain; opacity: 1;" sizes="(min-width: 3200px) 3200px, 100vw" decoding="async" loading="lazy" src="~/assets/img/HotelRooms.png" alt="solution">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide" style="margin-right: 50px;">
+                            <div data-gatsby-image-wrapper="" class="gatsby-image-wrapper gatsby-image-wrapper-constrained">
+                                <div style="max-width:3200px;display:block">
+                                    <div aria-hidden="true" data-placeholder-image="" style="opacity: 0; transition: opacity 500ms linear; object-fit: contain;"></div>
+                                    <picture>
+                                        <img width="3200" height="2000" data-main-image="" style="object-fit: contain; opacity: 1;" sizes="(min-width: 3200px) 3200px, 100vw" decoding="async" loading="lazy" src="~/assets/img/HotelServiceFood.png" alt="solution">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="margin-right: 50px;">
+                            <div data-gatsby-image-wrapper="" class="gatsby-image-wrapper gatsby-image-wrapper-constrained">
+                                <div style="max-width:3200px;display:block">
+                                    <div aria-hidden="true" data-placeholder-image="" style="opacity: 0; transition: opacity 500ms linear; object-fit: contain;"></div>
+                                    <picture>
+                                        <img width="3200" height="2000" data-main-image="" style="object-fit: contain; opacity: 1;" sizes="(min-width: 3200px) 3200px, 100vw" decoding="async" loading="lazy" src="~/assets/img/HotelService2.png" alt="solution">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="margin-right: 50px;">
+                            <div data-gatsby-image-wrapper="" class="gatsby-image-wrapper gatsby-image-wrapper-constrained">
+                                <div style="max-width:3200px;display:block">
+                                    <div aria-hidden="true" data-placeholder-image="" style="opacity: 0; transition: opacity 500ms linear; object-fit: contain;"></div>
+                                    <picture>
+                                        <img width="3200" height="2000" data-main-image="" style="object-fit: contain; opacity: 1;" sizes="(min-width: 3200px) 3200px, 100vw" decoding="async" loading="lazy" src="~/assets/img/HotelStaff.png" alt="solution">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="margin-right: 50px;">
+                            <div data-gatsby-image-wrapper="" class="gatsby-image-wrapper gatsby-image-wrapper-constrained">
+                                <div style="max-width:3200px;display:block">
+                                    <div aria-hidden="true" data-placeholder-image="" style="opacity: 0; transition: opacity 500ms linear; object-fit: contain;"></div>
+                                    <picture>
+                                        <img width="3200" height="2000" data-main-image="" style="object-fit: contain; opacity: 1;" sizes="(min-width: 3200px) 3200px, 100vw" decoding="async" loading="lazy" src="~/assets/img/HotelReports.png" alt="solution">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" style="margin-right: 50px;">
+                            <div data-gatsby-image-wrapper="" class="gatsby-image-wrapper gatsby-image-wrapper-constrained">
+                                <div style="max-width:3200px;display:block">
+                                    <div aria-hidden="true" data-placeholder-image="" style="opacity: 0; transition: opacity 500ms linear; object-fit: contain;"></div>
+                                    <picture>
+                                        <img width="3200" height="2000" data-main-image="" style="object-fit: contain; opacity: 1;" sizes="(min-width: 3200px) 3200px, 100vw" decoding="async" loading="lazy" src="~/assets/img/HotelSettings.png" alt="solution">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev swiper-button-disabled"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                        <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+                        <span class="swiper-pagination-bullet"></span>
+                        <span class="swiper-pagination-bullet"></span>
+                        <span class="swiper-pagination-bullet"></span>
+                        <span class="swiper-pagination-bullet"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5">
+                <div class="dark-box-1 p-4 p-lg-5">
+                    <div class="g-4 row">
+                        <div class="col-lg-3">
+                            <div class="mb-0 case-study-title-border sticky-section">
+                                <h2 class="mb-4 title-border-sm">
+                                    Key <span class="text-primary">features</span>Delivered
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <ul class="ps-0 ps-lg-5">
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <p><b>Guest-Facing Web App:</b></p>
+                                        <p></p>
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong>Room Browsing and Booking:</strong> Real-time availability, filtering by room types, price, and amenities.
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong>Secure Check-in/Check-out:</strong> Guest authentication and digital check-in.
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong>Payment Gateway Integration:</strong> Razorpay and Stripe.
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong>Support Chat:</strong> Instant guest support via live chat..
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong></strong> AI-powered auto-tagging of documents.
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong></strong> Integration with popular CRMs and ERPs.
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong></strong> Browser-based companion dashboard.
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong></strong> Batch scanning and auto-segmentation.
+                                    </div>
+                                </li>
+                            </ul>
+                            <br /><br />
+                            <ul class="ps-0 ps-lg-5">
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <p><b>Admin Panel:</b></p>
+                                        <p></p>
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong>Dashboard Overview:</strong> Real-time KPIs (occupancy rate, revenue, pending bookings).
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong>Room & Inventory Management:</strong> Add, edit, or remove rooms; track linen, cleaning supplies, and consumables.
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong>Staff Management:</strong> Assign roles, schedules, and track attendance.
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong>Booking Management:</strong> Oversee all bookings across branches, manage walk-ins and cancellations.
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong>Reporting Module:</strong> Exportable reports for finance, operations, and customer satisfaction.
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <strong>Multi-branch Support:</strong> Separate access per hotel, centralized head-office monitoring.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5">
+                <div class="dark-box-1 p-4 p-lg-5">
+                    <div class="g-4 row">
+                        <div class="col-lg-3">
+                            <div class="mb-0 case-study-title-border sticky-section">
+                                <h2 class="mb-4 title-border-sm">
+                                    Project<span class="text-primary">Objectives</span>
+                                </h2>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-9">
+                            <ul class="ps-0 ps-lg-5">
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <p>
+                                            Develop a responsive Hotel Management Web App for staff and guests.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <p>
+                                            Create a secure and user-friendly Admin Panel for hotel managers and head office use.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <p>
+                                            Integrate real-time room booking, inventory, billing, and reporting functionalities.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <p>
+                                            Ensure scalability to support multiple hotel branches.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="mb-3 lead d-flex">
+                                    <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                    <div class="mb-0">
+                                        <p>
+                                            Build on a modern tech stack to ensure longevity and maintainability.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--TechStack-->
+    <section class="section bg-light">
+        <div class="py-5 container">
+            <div class="mb-5 pb-1">
+                <h2 class="mb-0"><span class="text-primary">Tech stacks</span> we used</h2>
+            </div>
+            <div class="g-4 row row-cols-lg-4 row-cols-md-3 row-cols-1">
+                <div class="col">
+                    <div class="dark-box-2 text-center equal-height">
+                        <p class="mb-2 font-size-14 text-muted">Frontend</p>
+                        <h3 class="h5 fw-normal mb-0">
+                            Angular 15+
+                        </h3>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="dark-box-2 text-center equal-height">
+                        <p class="mb-2 font-size-14 text-muted">Back End</p>
+                        <h3 class="h5 fw-normal mb-0">
+                            ASP.NET Core Web API
+                        </h3>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="dark-box-2 text-center equal-height">
+                        <p class="mb-2 font-size-14 text-muted">Database</p>
+                        <h3 class="h5 fw-normal mb-0"> Microsoft SQL Server</h3>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="dark-box-2 text-center equal-height">
+                        <p class="mb-2 font-size-14 text-muted">Authentication</p>
+                        <h3 class="h5 fw-normal mb-0">JWT-based Role-based Access Control (RBAC)</h3>
+                    </div>
+                </div>
+
+            </div>
+            <div class="g-4 row row-cols-lg-4 row-cols-md-3 row-cols-1 mt-4">
+                <div class="col">
+                    <div class="dark-box-2 text-center equal-height">
+                        <p class="mb-2 font-size-14 text-muted">Hosting</p>
+                        <h3 class="h5 fw-normal mb-0">Azure Web Services</h3>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="dark-box-2 text-center equal-height">
+                        <p class="mb-2 font-size-14 text-muted">DevOps & CI/CD</p>
+                        <h3 class="h5 fw-normal mb-0">GitHub Actions, Azure Pipelines</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="py-5 container">
+        <div class="">
+            <div class="dark-box-1 p-4 p-lg-5">
+                <div class="g-4 row">
+                    <div class="col-lg-3">
+                        <div class="mb-0 case-study-title-border sticky-section">
+                            <h2 class="mb-4 title-border-sm">
+                                Client <span class="text-primary">Testimonial</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <ul class="ps-0 ps-lg-5">
+                            <li class="mb-3 lead d-flex">
+                                <span class="me-2 mt-1 text-second"><i class="zmdi zmdi-check-circle zmdi-hc-fw font-size-24"></i></span>
+                                <div class="mb-0">
+                                    "Broadsy Technologies transformed how we operate. Their team not only built a powerful system but also guided us through the entire digital transformation journey. The admin panel is a game-changer for our branch managers."
+                                    <b>
+                                        — General Manager, [Hotel Chain Name Withheld for Privacy]
+                                    </b>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
