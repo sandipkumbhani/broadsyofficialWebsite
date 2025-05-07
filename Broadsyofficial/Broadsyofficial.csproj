@@ -1191,6 +1191,7 @@
     <Content Include="Portfolio_OnTime_Eats.cshtml" />
     <Content Include="Portfolio_FarmHouse_Booking.cshtml" />
     <Content Include="Portfolio_SocialMedia_Mobile_App.cshtml" />
+    <Content Include="Page_ContactUs.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
